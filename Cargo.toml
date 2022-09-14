@@ -37,6 +37,7 @@ papergrid = { path = "./papergrid" }
 unicode-width = "0.1.9"
 tabled_derive = { path = "./tabled_derive", optional = true }
 ansi-str = { git = "https://github.com/zhiburt/ansi-str", branch = "master", optional = true }
+vte-ansi-iterator = { git = "https://github.com/dandavison/vte-ansi-iterator.git", branch = "main" }
 
 [dev-dependencies]
 owo-colors = "3.5.0"
